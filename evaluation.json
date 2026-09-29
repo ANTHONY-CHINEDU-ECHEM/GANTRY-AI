@@ -1,0 +1,79 @@
+{
+  "queries": 400,
+  "seed": 2026,
+  "dataset_cases": 16000,
+  "retrieval": {
+    "bm25": {
+      "precision_at_10": 0.843,
+      "mrr": 0.8936,
+      "ndcg_at_10": 0.9154,
+      "p50_ms": 0.712
+    },
+    "dense": {
+      "precision_at_10": 0.7868,
+      "mrr": 0.8514,
+      "ndcg_at_10": 0.8588,
+      "p50_ms": 1.078
+    },
+    "fusion": {
+      "precision_at_10": 0.8253,
+      "mrr": 0.8699,
+      "ndcg_at_10": 0.8843,
+      "p50_ms": 1.403
+    },
+    "hybrid": {
+      "precision_at_10": 0.9133,
+      "mrr": 0.9313,
+      "ndcg_at_10": 0.9306,
+      "p50_ms": 1.561
+    }
+  },
+  "diagnosis": {
+    "top1_accuracy": 0.9225,
+    "issue_recall": 0.895
+  },
+  "recommendation": {
+    "gantry_top1_strong_rate": 0.9122,
+    "gantry_top1_strong_or_moderate_rate": 0.9122,
+    "gantry_harmful_in_recommendations_rate": 0.0,
+    "avoid_list_precision": 0.9966,
+    "naive_majority_vote_strong_rate": 0.5831,
+    "naive_success_vote_strong_rate": 0.7586
+  },
+  "grounding": {
+    "verified_answer_rate": 1.0,
+    "mean_citation_precision": 1.0
+  },
+  "latency_ms": {
+    "p50": 4.39,
+    "p95": 6.85,
+    "p99": 8.84,
+    "mean": 4.75
+  },
+  "risk_models": {
+    "cost_overrun_over_20pct": {
+      "test_auc": 0.698,
+      "base_rate": 0.41
+    },
+    "schedule_overrun_over_25pct": {
+      "test_auc": 0.722,
+      "base_rate": 0.295
+    },
+    "cancelled_or_descoped": {
+      "test_auc": 0.619,
+      "base_rate": 0.113
+    },
+    "issue_classifier": {
+      "top1_accuracy": 0.161,
+      "top3_accuracy": 0.388,
+      "chance_top1": 0.067
+    }
+  },
+  "examples": [
+    "We are delivering a data platform migration in Software and the money is running out before the work is finished.",
+    "Advice needed: shortcuts from earlier releases are now slowing every sprint.",
+    "We are delivering a laboratory automation in Pharmaceuticals and we are stuck waiting for the regulator to approve our submission.",
+    "Advice needed: the business case was approved on numbers that were unrealistic.",
+    "Our sponsors want different outcomes and the steering group cannot agree on a simulator development for a Aerospace and Defence client. How do we recover?"
+  ]
+}

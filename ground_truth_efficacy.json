@@ -1,0 +1,196 @@
+{
+  "tiers": {
+    "strong": 0.85,
+    "moderate": 0.55,
+    "neutral": 0.25,
+    "harmful": 0.08
+  },
+  "issues": {
+    "Scope creep": {
+      "strong": [
+        "Formal change control board with impact triage",
+        "Scope rebaselining with sponsor sign off"
+      ],
+      "moderate": [
+        "Requirements discovery sprint with prototypes",
+        "Executive sponsor reset workshop"
+      ],
+      "harmful": [
+        "Sustained overtime push"
+      ]
+    },
+    "Resource contention": {
+      "strong": [
+        "Resource levelling with portfolio prioritisation",
+        "Crashing with targeted specialist resources"
+      ],
+      "moderate": [
+        "Executive sponsor reset workshop",
+        "Fast tracking of parallel work packages"
+      ],
+      "harmful": [
+        "Sustained overtime push"
+      ]
+    },
+    "Critical path slippage": {
+      "strong": [
+        "Critical chain buffer management",
+        "Fast tracking of parallel work packages"
+      ],
+      "moderate": [
+        "Crashing with targeted specialist resources",
+        "Reference class forecasting reestimation"
+      ],
+      "harmful": [
+        "Adding general headcount to the team"
+      ]
+    },
+    "Supplier underperformance": {
+      "strong": [
+        "Supplier recovery plan with contractual remedies",
+        "Dual sourcing of critical supply"
+      ],
+      "moderate": [
+        "Cross functional daily standups and a single source of truth dashboard",
+        "Earned value based cost control"
+      ],
+      "harmful": [
+        "Sustained overtime push"
+      ]
+    },
+    "Stakeholder misalignment": {
+      "strong": [
+        "Executive sponsor reset workshop",
+        "Stakeholder mapping and tailored engagement plan"
+      ],
+      "moderate": [
+        "Cross functional daily standups and a single source of truth dashboard",
+        "Scope rebaselining with sponsor sign off"
+      ],
+      "harmful": []
+    },
+    "Requirements ambiguity": {
+      "strong": [
+        "Requirements discovery sprint with prototypes",
+        "Stakeholder mapping and tailored engagement plan"
+      ],
+      "moderate": [
+        "Formal change control board with impact triage",
+        "Scope rebaselining with sponsor sign off"
+      ],
+      "harmful": [
+        "Fast tracking of parallel work packages"
+      ]
+    },
+    "Technical debt accumulation": {
+      "strong": [
+        "Dedicated technical debt reduction sprints",
+        "Quality gates with root cause analysis"
+      ],
+      "moderate": [
+        "Integration test harness and contract testing"
+      ],
+      "harmful": [
+        "Sustained overtime push",
+        "Fast tracking of parallel work packages"
+      ]
+    },
+    "Integration failure": {
+      "strong": [
+        "Integration test harness and contract testing",
+        "Quality gates with root cause analysis"
+      ],
+      "moderate": [
+        "Cross functional daily standups and a single source of truth dashboard",
+        "Crashing with targeted specialist resources"
+      ],
+      "harmful": [
+        "Fast tracking of parallel work packages"
+      ]
+    },
+    "Budget overrun": {
+      "strong": [
+        "Earned value based cost control",
+        "Scope rebaselining with sponsor sign off"
+      ],
+      "moderate": [
+        "Reference class forecasting reestimation",
+        "Supplier recovery plan with contractual remedies"
+      ],
+      "harmful": [
+        "Crashing with targeted specialist resources",
+        "Adding general headcount to the team"
+      ]
+    },
+    "Regulatory approval delay": {
+      "strong": [
+        "Early regulator engagement and presubmission meetings"
+      ],
+      "moderate": [
+        "Critical chain buffer management",
+        "Stakeholder mapping and tailored engagement plan"
+      ],
+      "harmful": [
+        "Fast tracking of parallel work packages"
+      ]
+    },
+    "Key person dependency": {
+      "strong": [
+        "Knowledge transfer and pairing programme"
+      ],
+      "moderate": [
+        "Resource levelling with portfolio prioritisation",
+        "Crashing with targeted specialist resources"
+      ],
+      "harmful": [
+        "Sustained overtime push"
+      ]
+    },
+    "Quality defects escalation": {
+      "strong": [
+        "Quality gates with root cause analysis",
+        "Dedicated technical debt reduction sprints"
+      ],
+      "moderate": [
+        "Integration test harness and contract testing"
+      ],
+      "harmful": [
+        "Sustained overtime push",
+        "Fast tracking of parallel work packages"
+      ]
+    },
+    "Communication breakdown": {
+      "strong": [
+        "Cross functional daily standups and a single source of truth dashboard",
+        "Stakeholder mapping and tailored engagement plan"
+      ],
+      "moderate": [
+        "Executive sponsor reset workshop"
+      ],
+      "harmful": []
+    },
+    "Estimation error": {
+      "strong": [
+        "Reference class forecasting reestimation",
+        "Scope rebaselining with sponsor sign off"
+      ],
+      "moderate": [
+        "Earned value based cost control",
+        "Critical chain buffer management"
+      ],
+      "harmful": [
+        "Sustained overtime push"
+      ]
+    },
+    "Change resistance": {
+      "strong": [
+        "Change management and adoption champions network",
+        "Stakeholder mapping and tailored engagement plan"
+      ],
+      "moderate": [
+        "Executive sponsor reset workshop"
+      ],
+      "harmful": []
+    }
+  }
+}
